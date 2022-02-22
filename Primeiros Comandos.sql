@@ -1,5 +1,4 @@
 Comandos Básicos em SQL
---Criação de tabelas
 
 --Criação de tabela para armazenar ideias de postagem
 create table ideias(
@@ -13,3 +12,6 @@ insert into ideias values(2,'Usando mais o select');
 insert into ideias values(3,'Criando uma foreing key');
 insert into ideias values(4,'Fazendo join entre tabelas');
 commit;
+
+--Consultando dados da tabela
+select * from ideias;
