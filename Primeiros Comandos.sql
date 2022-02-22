@@ -15,3 +15,7 @@ commit;
 
 --Consultando dados da tabela
 select * from ideias;
+
+--Atualizando dados da tabela
+update ideias set tema = 'Select e join' where id_ideias = 2;
+commit;
